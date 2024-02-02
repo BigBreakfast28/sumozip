@@ -4,7 +4,7 @@ export default function Navbar() {
     return(
         <div className="">
             <Link href="/" className=" flex justify-start pt-4 pl-4 text-xl hover:font-bold">
-                SumoZip
+                EVA
             </Link>
             <div className="flex justify-end space-x-20 pr-8">
                 <Link href="/ecommerce" className="hover:font-bold">
@@ -16,5 +16,5 @@ export default function Navbar() {
             </div>
         </div>
 
-    )
+    );
 }
