@@ -1,10 +1,11 @@
-import { Separator } from "./ui/separator";
+import { Separator } from "@/components/ui/separator";
 
 export default function Footer() {
     return(
-        <div>
-            <Separator/>
-            This is going to be the footer
-        </div>
-    )
+        <footer>
+            <div className="flex justify-center">
+                &copy; E.V.A LLC, All Rights Reserved. 
+            </div>
+        </footer>
+    );
 }
