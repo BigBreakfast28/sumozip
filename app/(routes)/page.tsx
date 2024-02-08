@@ -15,7 +15,7 @@ import React from "react"
 
 export default function Home() {
   return(
-    <div className="bg-gradient-to-r from-slate-300 to-blue-500">
+    <div className="">
       <div className="container text-xl">
         <div className="container-lg text-2xl leading-loose bg-gradient-to-r from-neutral-100 to-teal-400 pr-4 pl-5">
           Welcome to EVA where we will design your dream from scratch. 
