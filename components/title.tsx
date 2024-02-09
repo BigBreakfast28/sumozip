@@ -3,12 +3,12 @@ import Image from "next/image";
 
 export default function Title() {
     return(
-        <div className="">
+        <div className="flex justify-center">
             <Image 
             src={EVAimg} 
             alt="EVA logo"
-            height={15}
-            width={15}
+            height={400}
+            width={400}
             className="flex justify-center"
             />
         </div>
