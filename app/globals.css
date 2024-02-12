@@ -3,17 +3,17 @@
 @tailwind utilities;
  
 body {
-    background-color:#656E77;
+    background-color:whitesmoke;
 }
 
 h1 {
     color:#6699CC;
 }
+h2 {
+    color:#3B373B
+}
 
 p {
-    color:white
+    color:black
 }
 
-gash {
-    color:
-}

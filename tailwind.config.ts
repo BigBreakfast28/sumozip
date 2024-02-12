@@ -22,7 +22,7 @@ module.exports = {
   theme: {
     fontFamily: {
       'sans': ['ui-sans-serif', 'system-ui'],
-      'serif': ['ui-serif', 'Georgia'],
+      'serif': ['ui-serif', 'Georgia', 'Helventica'],
       'mono': ['ui-monospace', 'SFMono-Regular'],
       'display': ['Oswald'],
       'body': ['"Open Sans"'],

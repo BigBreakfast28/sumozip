@@ -1,16 +1,16 @@
-import EVAimg from "@/public/EVAlogo.jpg"
+import EVAimg from "@/public/EVATrans.png"
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Title() {
     return(
-        <div className="flex justify-center">
+        <div className="flex justify-center hover:outline-2">
+            <Link href="/" className="hover:opacity-50">
             <Image 
             src={EVAimg} 
-            alt="EVA logo"
-            height={400}
-            width={400}
-            className="flex justify-center"
+            alt="EVA logo with transparent background"
             />
+            </Link>
         </div>
     );
 }

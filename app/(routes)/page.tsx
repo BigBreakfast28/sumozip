@@ -18,12 +18,12 @@ export default function Home() {
     <div className="">
       <div className="container text-xl">
         <div className="container-lg text-2xl leading-loose pr-4 pl-5">
-          <p>
-          Welcome to EVA where we will design your dream from scratch. 
-          This is a one stop shop for bring your dreams to life. 
-          As an agency we are committed to bringing you the best possible package for the most affordable price.
-          Take the first step to designing your website...
-          </p>
+          <h2>
+            Welcome to EVA where we will design your dream from scratch. 
+            This is a one stop shop for bring your dreams to life. 
+            As an agency we are committed to bringing you the best possible package for the most affordable price.
+            Take the first step to designing your website...
+          </h2>
         </div>
         <ScrollArea className="h-[200px]  rounded-md border p-4">
           <div className="leading-loose from-white to-blue-300 text-wrap">
