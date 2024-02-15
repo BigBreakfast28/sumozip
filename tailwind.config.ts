@@ -25,7 +25,7 @@ module.exports = {
       'serif': ['ui-serif', 'Georgia', 'Helventica'],
       'mono': ['ui-monospace', 'SFMono-Regular'],
       'display': ['Oswald'],
-      'body': ['"Open Sans"'],
+      'body': ['"Helventica"'],
     }
   }
 }

@@ -53,7 +53,7 @@ export default function Home() {
       <p>
         <Carousel>
         <CarouselContent className="-ml-2">
-        <CarouselItem className="pl-4 box-decoration-clone bg-gra text-6xl">
+        <CarouselItem className="pl-4 box-decoration-clone text-6xl">
           Determine what your ideas are!
         </CarouselItem>
         <CarouselItem className="pl-4 box-decoration-clone  text-6xl">
