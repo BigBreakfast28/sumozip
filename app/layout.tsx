@@ -4,6 +4,9 @@ import "./globals.css";
 import Navbar from "@/components/navbar";
 import Title from "@/components/title";
 import Footer from "@/components/footer";
+import Image from "next/image";
+import EVAIcon from "@/public/Molecule.png"
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,13 +22,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <div className="">
         <body className={inter.className}>
-          <Title/>
-          <Navbar/>
-          {children}
+            <Title/>
+              <Navbar/>
+              {children}
         </body>
-      </div>
     </html>
   );
 }

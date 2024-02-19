@@ -9,7 +9,7 @@ import { Separator } from "@radix-ui/react-separator";
 
 export default function Navbar() {
     return(
-        <nav className="container flex justify-end bg-amber-400 border-black">
+        <nav className="container-lg flex justify-end bg-amber-400 border-black border-2">
             <div className="">
                 <Link href="/" className="p-10 hover:font-extrabold hover:text-4xl hover:text-white text-2xl">
                     Home
@@ -22,7 +22,7 @@ export default function Navbar() {
                 </Link>
             </div>
             <div>
-                
+
             </div>
         </nav>
 

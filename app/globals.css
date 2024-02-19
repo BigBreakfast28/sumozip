@@ -2,8 +2,13 @@
 @tailwind components;
 @tailwind utilities;
  
+
 body {
-    background-color:whitesmoke;
+    background-color: whitesmoke;
+    background-image: url(../public/Molecule.png);
+    background-repeat: repeat;
+    background-size: 15% 15%;
+
 }
 
 h1 {
@@ -14,6 +19,6 @@ h2 {
 }
 
 p {
-    color:black
+    color:white
 }
 
