@@ -20,7 +20,7 @@ export default function Home() {
     <div >
       <span>
         <div className=" text-xl bg">
-          <div className="container-xl text-2xl leading-loose bg-slate-400 p-52 text-white">
+          <div className="container-xl text-3xl leading-loose bg-slate-400 p-52 text-white">
               Welcome to EVA where we will design your dream from scratch. 
               This is a one stop shop for bring your dreams to life. 
               As an agency we are committed to bringing you the best possible package for the most affordable price.
@@ -29,16 +29,9 @@ export default function Home() {
           <div className="p-40">
            
           </div>
-          <ScrollArea className="h-[200px]  rounded-md border p-10 bg-slate-400 text-white">
-            <div className="leading-loose text-wrap text-2xl flex justify-center">
-              <p>
-              Creating an online business is the first step to cementing your business. We will simplify complex concepts,
-              create scalable models, and work closely until your business comes to life. We desire to give products that are user friendly!
-              </p>
-            </div>
-            <h1 className="text-7xl font-extrabold underline flex justify-center">What is EVA?</h1>
-              <div className="text-wrap text-2xl leading-loose ">
-                <p>
+          <div className="bg-slate-400 p-48">
+            <h1 className="text-7xl font-bold underline flex justify-center hover:font-extrabold">What is EVA?</h1>
+              <div className="text-wrap text-3xl leading-loose text-white">
                   EVA originated from my background in chemistry. EVA is a abbreviation for a polymer typically used in the industrial industry. 
                   Polymers are used in different products for the process of holding materials together. This may be a difficult concept to grap
                   so for comparison think of the process of eggs in baked goods. Polymers serves this same purpose in cementitous products. 
@@ -46,9 +39,11 @@ export default function Home() {
                   this business. Having an online prescence is todays age is essential for success. Every successful company has a website or someway
                   for their audience to reach them through the internet. The sole purpose of EVA is to bring all of your ideas together and bind them 
                   to create a longlasting, successful prescence online. 
-                </p>
+                  Creating an online business is the first step to cementing your business. We will simplify complex concepts,
+                  create scalable models, and work closely until your business comes to life. We desire to give products that are user friendly!
               </div>
-          </ScrollArea>
+            </div>
+          
       </div>
 
     
