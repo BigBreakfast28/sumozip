@@ -1,35 +1,30 @@
 "use client"
 
 import Link from "next/link";
-import logotrans from "@/public/EVATrans.png"
+import evaForm from "@/public/evaForm.png"
 import Image from "next/image";
 import { Separator } from "@radix-ui/react-separator";
+import Modal from "./ui/modal";
+
 
 export default function Navbar() {
     return(
-        <nav className="container-lg flex justify-end bg-white p-20">
-            <div className="">
+        <nav className="w-full z-20 bg-white">
+            <div className="container relative flex flex-wrap items-center justify-between p-12">
                 <Link href="/">
                     <Image
-                    src={logotrans}
+                    src={evaForm}
                     alt="EVA Logo"
                     height={200}
                     width={200}
                     />
                 </Link>
-                <Link href="/" className=" p-10 hover:font-extrabold hover:text-4xl hover:text-white text-2xl">
+                <Link href="/" className=" hover:underline text-2xl">
                     Home
                 </Link>
-                <Link href="/ecommerce" className="hover:font-bold hover:text-2xl hover:text-white text-xl">
-                    Ecommerce
-                </Link>
-                <Link href="/static" className="p-10 hover:font-bold hover:text-2xl hover:text-white text-xl">
-                    Static
-                </Link>
+                <Modal/>
             </div>
-            <div>
-
-            </div>
+            
         </nav>
 
     );

@@ -1,14 +1,6 @@
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel"
-
 import { ScrollArea } from "@/components/ui/scroll-area"
 import Image from "next/image"
-import logoimg from "@/public/Molecule.png"
+import cloud from "@/public/cloud.png"
 
 
 import React from "react"
@@ -18,13 +10,15 @@ import React from "react"
 export default function Home() {
   return(
     <div >
-      <span>
-        <div className=" text-xl bg">
-          <div className="container-xl text-3xl leading-loose bg-slate-400 p-52 text-white">
+      <div>
+          <div className="container-xl bg-slate-400 p-20">
+            <div className="leading-loose text-3xl text-white container">
               Welcome to EVA where we will design your dream from scratch. 
               This is a one stop shop for bring your dreams to life. 
               As an agency we are committed to bringing you the best possible package for the most affordable price.
               Take the first step to designing your website...
+            </div>
+            Image will go here
           </div>
           <div className="p-40">
            
@@ -48,28 +42,9 @@ export default function Home() {
 
     
       <div className="container">
-        <p>
-          <Carousel>
-          <CarouselContent className="-ml-2">
-          <CarouselItem className="pl-4 box-decoration-clone text-6xl">
-            Determine what your ideas are!
-          </CarouselItem>
-          <CarouselItem className="pl-4 box-decoration-clone  text-6xl">
-            Determine the type of website!
-            </CarouselItem>
-          <CarouselItem className="pl-4 box-decoration-clone  text-6xl">
-            Start the design process!
-          </CarouselItem>
-          </CarouselContent>
-          <CarouselPrevious />
-        <CarouselNext />
-      </Carousel>
-      </p>
       </div>
       <div className="">
-
       </div>
-    </span>
     </div>
   )
 }
