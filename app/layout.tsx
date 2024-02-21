@@ -1,11 +1,13 @@
+
+
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+
 import Navbar from "@/components/navbar";
-import Title from "@/components/title";
 import Footer from "@/components/footer";
-import Image from "next/image";
-import EVAIcon from "@/public/Molecule.png"
+
+import { Separator } from "@radix-ui/react-separator";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -25,6 +27,8 @@ export default function RootLayout({
         <body className={inter.className}>
               <Navbar/>
               {children}
+              
+              <Footer/>
         </body>
     </html>
   );

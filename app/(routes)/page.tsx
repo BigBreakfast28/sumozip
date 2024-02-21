@@ -1,13 +1,6 @@
-import { ScrollArea } from "@/components/ui/scroll-area"
-import Image from "next/image"
-import cloud from "@/public/cloud.png"
-
-
-import React from "react"
-
-
 
 export default function Home() {
+  
   return(
     <div >
       <div>

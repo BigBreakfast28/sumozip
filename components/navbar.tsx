@@ -3,8 +3,9 @@
 import Link from "next/link";
 import evaForm from "@/public/evaForm.png"
 import Image from "next/image";
-import { Separator } from "@radix-ui/react-separator";
 import Modal from "./ui/modal";
+
+
 
 
 export default function Navbar() {
@@ -24,7 +25,6 @@ export default function Navbar() {
                 </Link>
                 <Modal/>
             </div>
-            
         </nav>
 
     );

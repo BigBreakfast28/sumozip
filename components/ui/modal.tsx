@@ -1,12 +1,16 @@
-import React, { useState } from "react";
+"use client"
+
+import React, {useState} from "react"
 
 export default function Modal() {
     
-    const [modal, setModal] =useState(false); 
+    const [modal, setModal] = useState(false)
+
+
     
     return (
         <>
-            <button className="btn-modal">Start Formulating</button>
+        <button> Start Formulating</button>
         </>
-    );
+    )
 }
