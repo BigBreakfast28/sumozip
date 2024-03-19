@@ -1,11 +1,14 @@
+import { useState } from "react"
+
+const [open, setOpen] = useState<boolean>(false)
 
 export default function Home() {
   
   return(
-    <div >
+    <div id="top">
       <div>
           <div className="container-xl bg-slate-400 p-20">
-            <div className="leading-loose text-3xl text-white container">
+            <div className="leading-loose text-3xl text-white container" id="graph1">
               Welcome to EVA where we will design your dream from scratch. 
               This is a one stop shop for bring your dreams to life. 
               As an agency we are committed to bringing you the best possible package for the most affordable price.
@@ -30,11 +33,7 @@ export default function Home() {
                   create scalable models, and work closely until your business comes to life. We desire to give products that are user friendly!
               </div>
             </div>
-          
-      </div>
-
-    
-      <div className="container">
+            <div  className="bg-white border-solid border-black border-4"> This is a test for the border function.</div>
       </div>
       <div className="">
       </div>

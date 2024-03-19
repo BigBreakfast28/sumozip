@@ -4,6 +4,9 @@ import Link from "next/link";
 import evaForm from "@/public/evaForm.png"
 import Image from "next/image";
 import Modal from "./ui/modal";
+import { useState } from "react"
+
+const [open, setOpen] = useState<boolean>(false)
 
 
 
@@ -23,7 +26,10 @@ export default function Navbar() {
                 <Link href="/" className=" hover:underline text-2xl">
                     Home
                 </Link>
-                <Modal/>
+                <button onClick={() => setOpen(true)}>
+
+                </button>
+                <Modal open={open} onClose={() => setOpen(false)} children={undefined}/>
             </div>
         </nav>
 
