@@ -6,7 +6,7 @@ import Image from "next/image";
 import Modal from "./ui/modal";
 import { useState } from "react"
 
-const [open, setOpen] = useState<boolean>(false)
+/*const [open, setOpen] = useState<boolean>(false)*/
 
 
 
