@@ -6,13 +6,9 @@ import Image from "next/image";
 import Modal from "./ui/modal";
 /*import { useState } from "react"*/
 
-/*const [open, setOpen] = useState<boolean>(false)*/
-
-
-
-
 export default function Navbar() {
     return(
+        const [open, setOpen] = useState<boolean>(false)
         <nav className="w-full z-20 bg-white">
             <div className="container relative flex flex-wrap items-center justify-between p-12">
                 <Link href="/">
