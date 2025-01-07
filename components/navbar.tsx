@@ -4,7 +4,7 @@ import Link from "next/link";
 import evaForm from "@/public/evaForm.png"
 import Image from "next/image";
 import Modal from "./ui/modal";
-import { useState } from "react"
+/*import { useState } from "react"*/
 
 /*const [open, setOpen] = useState<boolean>(false)*/
 
