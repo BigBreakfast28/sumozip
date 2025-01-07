@@ -8,7 +8,7 @@ import Modal from "./ui/modal";
 
 export default function Navbar() {
     return(
-        const [open, setOpen] = useState<boolean>(false)
+        /*const [open, setOpen] = useState<boolean>(false)*/
         <nav className="w-full z-20 bg-white">
             <div className="container relative flex flex-wrap items-center justify-between p-12">
                 <Link href="/">
