@@ -2,10 +2,8 @@
 
 import { useState } from "react"
 
-const [open, setOpen] = useState<boolean>(false)
-
 export default function Home() {
-  
+  const [open, setOpen] = useState<boolean>(false)
   return(
     <div id="top">
       <div>
