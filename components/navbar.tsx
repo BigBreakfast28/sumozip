@@ -22,10 +22,10 @@ export default function Navbar() {
                 <Link href="/" className=" hover:underline text-2xl">
                     Home
                 </Link>
-                <button onClick={() => setOpen(true)}>
+                /*<button onClick={() => setOpen(true)}>
 
                 </button>
-                <Modal open={open} onClose={() => setOpen(false)} children={undefined}/>
+                <Modal open={open} onClose={() => setOpen(false)} children={undefined}/>*/
             </div>
         </nav>
 
